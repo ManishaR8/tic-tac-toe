@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(to left, #0F2027, #203A43, #2C5364);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.8rem;
+    padding: 25px 4px;
+}
+
+#winStreak{
+    width: 2rem;
+}
+
+.container {
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8vmin;
+    
+}
+
+.game {
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    margin-top: 24px;
+}
+
+.box {
+    height: 14vmin;
+    width: 14vmin;
+    border-radius: 0.75rem;
+    border: none;
+    font-size: 2.9rem;
+    background-color: black;
+    border: #fff 3px solid;
+    box-shadow: 1px 1px 13px 0px #fff;
+}
+
+input{
+    color: black;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.settings{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    
+}
+
+#startGame{
+    color: black;
+    background-color: lightblue;
+    padding: 10px ;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#startGame:hover{
+    background-color: black;
+    color: lightblue;
+}
+
+#resetBtn, #newGame {
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#resetBtn:hover, #newGame:hover{
+    background-color: white;
+    color: black;
+}
+
+#msg {
+    color: #fff;
+    text-shadow: 0 0 5px #182e6d, 0 0 10px #072781, 0 0 15px #0073e6;
+    font-size: 2.8rem;
+}
+
+.msg-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
+
+.neonColor-red {
+    color: #fff;
+    text-shadow: 0 0 5px #3b0101, 0 0 10px #ab0707, 0 0 15px #e70606;
+}
+
+.neonColor-blue {
+    color: #fff;
+    text-shadow: 0 0 5px #182e6d, 0 0 10px #072781, 0 0 15px #0073e6;
+}
+
+.error-msg {
+    color: #ff4d4d;
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .hide {
+    display: none;
+  }
+  

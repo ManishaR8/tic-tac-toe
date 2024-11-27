@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="newGame">New Game</button>
+    </div>
+    <main>
+        <h1>Tic Tac Toe</h1>
+
+        <div class="settings">
+          <div>
+            <label for="gridSize">Grid Size - </label>
+            <input type="number" id="gridSize" min="3" max="5" value="3">
+          </div>
+           <div>
+            <label for="winStreak">Win Streak - </label>
+            <input type="number" id="winStreak" min="3" value="3">
+            <button id="startGame">Start Game</button>
+           </div>
+        </div>
+
+        <p id="errorMsg" class="error-msg hide">Error message for input</p>
+
+        <div class="container">
+            <div class="game"></div>
+            <button id="resetBtn">Reset Game</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
